@@ -1,0 +1,13 @@
+==> MCQ Solutions :
+9-  (c) Always returns the same output for the same input
+10- (b) Immutability
+11- (c) map()
+12- (c) functools
+13- (b) An iterator containing elements that satisfy the condition
+
+==> True/False Solutions :
+14- True
+15- False
+16- True
+17- False
+18- True

@@ -1,0 +1,36 @@
+==> MCQ Solutions :
+=======================
+ 1- (a) re.match()
+ 2- (b) One or more digits
+ 3- (b) ing$
+ 4- (b) ['o', 'o', 'a', 'i']
+ 5- (b) ^[A-Z a-z] \w*$
+ 6- (c) Negation (not these characters)
+ 7- (b) ['Python', 'is', 'easy']
+ 8- (b) re.sub()
+
+=============================================
+==> True/False Solutions :
+============================
+1- False
+2- True
+3- False
+4- True
+5- True
+6- True
+7- False
+8- False
+
+=============================================
+==> Short Answer / Conceptual Questions :
+=====================================
+1- re.match() only searches for patterns at the beginning of the string but re.search() searches the entire string
+2- (+ → one or more), (* → zero or more) , (? → zero or one)
+3- Named groups make extracted data easier to reference by name instead of index (?P<year>\d{4})
+4- ^\d{4}-\d{2}-\d{2}$
+5- It validates an email address
+6- re.split() can split by any pattern but str.split() splits only by a fixed delimiter
+7- raw string treats backslashes (\) as literal characters, which prevents Python from interpreting them as escape sequences—essential for regex patterns like \d or \s
+8- re.sub(r"\s+", " ", text), Replaces one or more spaces with a single space, normalizing spacing in the text
+
+

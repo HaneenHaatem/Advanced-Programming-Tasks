@@ -1,0 +1,32 @@
+==> MCQ Solutions :
+=======================
+1- (c) Web routing and URL mapping
+2- (c) groupby()
+3- (b) Seaborn
+4- (a) Micro web framework
+5- (c) A model class
+6- (a) TensorFlow
+7- (a) Eigenvalues computation
+8- (c) It supports dynamic computation graphs
+
+=============================================
+==> True/False Solutions :
+============================
+1- False
+2- True
+3- True
+4- False
+5- True
+6- True
+
+=============================================
+==> Short Answer / Conceptual Questions :
+=====================================
+1- NumPy for arrays, basic math, SciPy for advanced science tools
+2- Groups data by column and applies operations like sum, mean, Example: df.groupby('Category').sum()
+3- Flask for simple and small apps and Django is full-featured for big apps
+4- Work on GPU and easy math for AI
+5- Matplotlib is detailed and more code but Seaborn is pretty easy stats
+
+
+

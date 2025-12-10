@@ -1,0 +1,25 @@
+==> MCQ Solutions :
+=======================
+1- (b) csv
+2- (b) Dictionary for each row with column names as keys
+3- (c) json.dumps()
+4- (b) Reads only the specified sheet into a DataFrame
+5- (b) openpyxl
+
+=============================================
+==> True/False Solutions :
+============================
+1- True
+2- True
+3- True
+4- False
+5- False
+
+=============================================
+==> Short Answer / Conceptual Questions :
+=====================================
+1- json.load() reads JSON from a file object but json.loads() reads from a string
+2- csv.reader returns rows as lists but csv.DictReader returns rows as dictionaries with column headers as keys
+3- Pandas offers easier handling of missing data, type inference, and advanced operations like filtering and grouping
+4- Use pd.ExcelWriter with engine='openpyxl' and specify sheet_name in df.to_excel()
+5- JSON supports nested structures and data types but CSV is flat and requires all rows to have same columns

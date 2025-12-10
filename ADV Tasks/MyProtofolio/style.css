@@ -1,0 +1,49 @@
+Background
+body {
+  background-color: #f8f9fc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Section Spacing */
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Hero Image Styling */
+.hero-img {
+  border-radius: 16px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Global Colors */
+:root {
+  --main-color: #0d6efd;
+  --text-dark: #1e1e1e;
+  --text-light: #6c757d;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--text-dark);
+}
+p {
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+
+.hover-scale:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.custom-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.btn-outline-light.custom-btn:hover {
+  background-color: #fff;
+  color: #000;
+}

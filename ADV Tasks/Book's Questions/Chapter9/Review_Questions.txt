@@ -1,0 +1,29 @@
+==> MCQ Solutions :
+=======================
+1- (c) requests
+2- (c) requests.get()
+3- (c) soup.find_all("a")
+4- (c) The inner text of the tag
+5- (d) Selenium
+6- (c) Respecting rate limits
+7- (d) None of the above
+
+=============================================
+==> True/False Solutions :
+============================
+1- True
+2- False
+3- True
+4- True
+5- False
+
+=============================================
+==> Short Answer / Conceptual Questions :
+=====================================
+1- requests: Lightweight, only for static HTML pages, faster, can't handle JavaScript, Selenium: Browser automation, handles JavaScript-heavy sites, slower, can interact with page elements
+2- file that tells web crawlers which pages/sections they can or cannot access. It's a standard for ethical web scraping
+3- find() Returns the first matching element (single element) but find_all() Returns all matching elements (list of elements)
+4- To mimic a real browser and avoid being blocked as a bot. Some websites block requests without proper User-Agent headers
+5- CSV, JSON and Excel
+
+

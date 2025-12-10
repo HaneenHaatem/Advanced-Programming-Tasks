@@ -1,0 +1,27 @@
+==> MCQ Solutions :
+=======================
+1- (c) sqlite3
+2- (b) Saves changes permanently in the database
+3- (c) ?
+4- (c) fetchone()
+5- (a) Base
+
+=============================================
+==> True/False Solutions :
+============================
+1- False
+2- True
+3- True
+4- True
+5- False
+
+=============================================
+==> Short Answer / Conceptual Questions :
+=====================================
+Short Answer Questions
+
+1- fetchone(): returns the next row as a tuple; fetchmany(n): returns next n rows as a list of tuples but fetchall(): returns all remaining rows as a list of tuples
+2- Parameterized queries prevent SQL injection by treating user input as data, not executable code, and improve performance through query caching
+3- A transaction is a sequence of database operations treated as a single unit it ensures ACID properties: Atomicity, Consistency, Isolation, Durability
+4- import sqlite3 => conn = sqlite3.connect('database.db') => cursor = conn.cursor() => cursor.execute("INSERT INTO table VALUES (?, ?)", (val1, val2)) => conn.commit() => conn.close()
+5- ORM maps database tables to Python classes and rows to objects, allowing developers to work with Python objects instead of SQL strings, improving readability, security, and maintainability
